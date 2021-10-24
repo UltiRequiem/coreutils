@@ -7,7 +7,7 @@ Cross-platform JavaScript rewrite of the GNU coreutils.
 This will install all the commands.
 
 ```bash
-source <(curl -s https://deno.land/x/coreutils/install.sh)
+curl -fsSL https://deno.land/x/coreutils/install.sh | sh
 ```
 
 ## Installing Individual Commands
