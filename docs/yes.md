@@ -1,0 +1,15 @@
+# yes
+
+> Repeatedly output a line with all specified STRING(s), or 'y'.
+
+## Install
+
+```bash
+deno install https://deno.land/x/coreutils/bin/yes.js
+```
+
+## Usage
+
+```bash
+yes
+```
