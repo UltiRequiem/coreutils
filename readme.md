@@ -1,4 +1,4 @@
-# CoreUtils
+# coreutils
 
 Cross-platform JavaScript rewrite of the GNU coreutils.
 
@@ -23,8 +23,8 @@ The following commands are currently available:
 - [yes](https://deno.land/x/coreutils/bin/yes.js)
 - [pwd](https://deno.land/x/coreutils/bin/pwd.js)
 
-Some commands need extra permissions, check the documentation if you are having
-problems executing or installing any command.
+Some commands need extra permissions, check the [documentation](./docs) if you
+are having problems executing or installing any command.
 
 ## License
 

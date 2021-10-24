@@ -1,5 +1,5 @@
-import { printHelp } from "../mod.js";
-import { parse, writeAll } from "../deps.js";
+import { printHelp } from "../mod.ts";
+import { parse, writeAll } from "../deps.ts";
 
 const helpMessage = `Usage: yes [STRING]...
   or:  yes OPTION
