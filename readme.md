@@ -13,6 +13,7 @@ deno install https://deno.land/x/coreutils/bin/yes.js
 The following commands are currently available:
 
 - [yes](https://deno.land/x/coreutils/bin/yes.js)
+- [pwd](https://deno.land/x/coreutils/bin/pwd.js)
 
 ## License
 
