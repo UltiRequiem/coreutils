@@ -33,8 +33,10 @@ If you want to install the script with other name check the
 
 The following commands are currently available:
 
-- [yes](https://deno.land/x/coreutils/bin/yes.js)
-- [pwd](https://deno.land/x/coreutils/bin/pwd.js)
+- [yes](https://deno.land/x/coreutils/bin/yes.ts)
+- [pwd](https://deno.land/x/coreutils/bin/pwd.ts)
+- [whoami](https://deno.land/x/coreutils/bin/whoami.ts)
+- [time](https://deno.land/x/coreutils/bin/time.js)
 
 Some commands need extra permissions, check the [documentation](./docs/) if you
 are having problems executing or installing any command.
