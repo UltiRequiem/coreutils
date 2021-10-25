@@ -1,12 +1,9 @@
 if ! command -v deno &>/dev/null; then
-	echo "Deno is not in PATH"
-	exit
+	echo "Deno is not in PATH." && exit
 fi
 
-command="deno install -f -A"
-url="https://deno.land/x/coreutils/bin/"
 commands_to_install=("yes" "pwd")
 
 for bin in "${commands_to_install[@]}"; do
-	echo "$command -n js$bin $url$bin.ts" | sh
+	echo "deno install -f -A -n js$bin https://deno.land/x/coreutils/bin/$bin.ts" | sh
 done
