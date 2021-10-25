@@ -4,7 +4,7 @@
  * @param  voluntary - Exit the program vocabulary?
  * @returns  Exit the process.
  */
-export function printHelp(message: string, voluntary = false): never {
+export function printHelp(message: string, voluntary?: boolean): never {
   console.log(message);
   Deno.exit(voluntary ? 0 : 1);
 }

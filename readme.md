@@ -5,8 +5,8 @@ Cross-platform JavaScript rewrite of the GNU coreutils. This project uses
 
 ## Installing all the commands
 
-You need [Deno](https://deno.land/#installation) installed
-for this step. This will install all the commands:
+You need [Deno](https://deno.land/#installation) installed for this step. This
+will install all the commands:
 
 ```bash
 curl -fsSL https://deno.land/x/coreutils/install.sh | sh
@@ -22,7 +22,7 @@ jsyes
 
 ## Installing Individual Commands
 
-Example installing the [`yes`](./bin/yes.js) command:
+Example installing the [`yes`](./bin/yes.ts) command:
 
 ```bash
 deno install https://deno.land/x/coreutils/bin/yes.js
