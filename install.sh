@@ -8,5 +8,5 @@ url="https://deno.land/x/coreutils/bin/"
 commands_to_install=("yes" "pwd")
 
 for bin in "${commands_to_install[@]}"; do
-	echo "$command $url$bin.ts" | sh
+	echo "$command -n $bin $url$bin.ts" | sh
 done
