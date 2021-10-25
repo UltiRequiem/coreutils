@@ -1,6 +1,6 @@
 # time
 
-> time a simple command or give resource usage
+> time a simple command
 
 ## Install
 
