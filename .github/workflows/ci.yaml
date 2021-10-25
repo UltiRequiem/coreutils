@@ -1,0 +1,16 @@
+name: CI
+
+on: push
+
+jobs:
+  lint:
+    name: Run tests, Lint, and check format.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - run: deno lint
+      - run: deno test
+      - run: deno fmt --check
