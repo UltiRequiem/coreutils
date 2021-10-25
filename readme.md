@@ -12,7 +12,7 @@ step. This will install all the commands:
 curl -fsSL https://deno.land/x/coreutils/install.sh | sh
 ```
 
-This will install the command with the `js` prefix.
+This will install the commands with the `js` prefix.
 
 E.g If you want to use the [`yes`](./bin/yes.ts) command, you have to write:
 
