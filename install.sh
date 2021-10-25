@@ -3,5 +3,10 @@ if ! command -v deno &>/dev/null; then
 	exit
 fi
 
-deno install -f https://deno.land/x/coreutils/bin/yes.js
-deno install -f --allow-read https://deno.land/x/coreutils/bin/pwd.js
+command="deno install -f -A"
+url="https://deno.land/x/coreutils/bin/"
+commands_to_install=("yes" "pwd")
+
+for bin in "${commands_to_install[@]}"; do
+	echo "$command $url$bin.ts" | sh
+done
