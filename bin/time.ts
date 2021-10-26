@@ -1,5 +1,5 @@
 // Helper function to format `performance.now()'
-const mtos = (milli: number, places: number): number => {
+const mtos = (milli: number, places: number): string => {
   return ((milli + 500) / 1000).toFixed(places);
 };
 
@@ -44,4 +44,4 @@ if (status.code === 0) {
 }
 
 console.log(String(`\nreal    ${mtos(performance.now(), 3)}s`));
-Deno.exit(status);
+Deno.exit(Number(status));
