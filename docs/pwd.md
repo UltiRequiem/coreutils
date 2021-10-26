@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-deno install --allow-read https://deno.land/x/coreutils/bin/pwd.js
+deno install --allow-read https://deno.land/x/coreutils/bin/pwd.ts
 ```
 
 ## Usage
