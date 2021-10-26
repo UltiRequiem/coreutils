@@ -1,7 +1,7 @@
 // Helper function to format `performance.now()'
-const mtos = (milli: number, places: number): string => {
+function mtos(milli: number, places: number): string {
   return ((milli + 500) / 1000).toFixed(places);
-};
+}
 
 // BEGIN
 const args = Deno.args.flat();
