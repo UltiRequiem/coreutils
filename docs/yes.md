@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-deno install https://deno.land/x/coreutils/bin/yes.js
+deno install https://deno.land/x/coreutils/bin/yes.ts
 ```
 
 ## Usage

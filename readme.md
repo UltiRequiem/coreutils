@@ -37,6 +37,9 @@ The following commands are currently available:
 - [pwd](https://deno.land/x/coreutils/bin/pwd.ts)
 - [whoami](https://deno.land/x/coreutils/bin/whoami.ts)
 - [time](https://deno.land/x/coreutils/bin/time.js)
+- [echo](https://deno.land/x/coreutils/bin/echo.ts)
+- [cat](https://deno.land/x/coreutils/bin/cat.ts)
+- [clear](https://deno.land/x/coreutils/bin/clear.ts)
 
 Some commands need extra permissions, check the [documentation](./docs/) if you
 are having problems executing or installing any command.
