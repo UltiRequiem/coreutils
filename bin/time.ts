@@ -1,3 +1,9 @@
+// Helper function to format `performance.now()'
+const mtos = (milli: number, places: number): number => {
+  return ((milli + 500) / 1000).toFixed(places);
+};
+
+// BEGIN
 const args = Deno.args.flat();
 if (args.length < 1) {
   console.error("Usage: time command [arguments...]");
@@ -13,7 +19,9 @@ try {
   });
 } catch (err) {
   if (err instanceof Deno.errors.NotFound) {
-    console.error(`${args[0]}: command not found\n\nreal    ${performance.now()}`);
+    console.error(
+      `${args[0]}: command not found\n\nreal    ${mtos(performance.now(), 3)}s`,
+    );
     Deno.exit(1);
   } else {
     throw err;
@@ -35,5 +43,5 @@ if (status.code === 0) {
   Deno.exit(1);
 }
 
-console.log(String(`\nreal    ${performance.now()}`));
+console.log(String(`\nreal    ${mtos(performance.now(), 3)}s`));
 Deno.exit(status);
