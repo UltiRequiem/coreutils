@@ -11,5 +11,5 @@ deno install --allow-env https://deno.land/x/coreutils/bin/printenv.ts
 ## Usage
 
 ```
-printenv [VARIABLE]
+printenv [VARIABLE...]
 ```
