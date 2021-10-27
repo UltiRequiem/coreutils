@@ -40,6 +40,7 @@ The following commands are currently available:
 - [echo](https://deno.land/x/coreutils/bin/echo.ts)
 - [cat](https://deno.land/x/coreutils/bin/cat.ts)
 - [clear](https://deno.land/x/coreutils/bin/clear.ts)
+- [printenv](https://deno.land/x/coreutils/bin/printenv.ts)
 
 Some commands need extra permissions, check the [documentation](./docs/) if you
 are having problems executing or installing any command.
