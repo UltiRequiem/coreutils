@@ -41,6 +41,7 @@ The following commands are currently available:
 - [cat](https://deno.land/x/coreutils/bin/cat.ts)
 - [clear](https://deno.land/x/coreutils/bin/clear.ts)
 - [printenv](https://deno.land/x/coreutils/bin/printenv.ts)
+- [arch](https://deno.land/x/coreutils/bin/arch.ts)
 
 Some commands need extra permissions, check the [documentation](./docs/) if you
 are having problems executing or installing any command.
