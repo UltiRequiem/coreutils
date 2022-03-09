@@ -54,6 +54,8 @@ https://nest.land/package/coreutils
 
 There is a lot to do! If you like the project check the issues please!
 
+[My Discord Community](https://ultirequiem.com/discord)
+
 ## License
 
 This project is licensed under the [MIT License](./license).
