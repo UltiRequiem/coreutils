@@ -24,7 +24,7 @@ jsyes
 Example installing the [`yes`](./bin/yes.ts) command:
 
 ```bash
-deno install https://deno.land/x/coreutils/bin/yes.js
+deno install https://deno.land/x/coreutils/bin/yes.ts
 ```
 
 If you want to install the script with other name check the
@@ -45,6 +45,14 @@ The following commands are currently available:
 
 Some commands need extra permissions, check the [documentation](./docs/) if you
 are having problems executing or installing any command.
+
+## Notes
+
+This package is available through nest.land too 👇
+
+https://nest.land/package/coreutils
+
+There is a lot to do! If you like the project check the issues please!
 
 ## License
 

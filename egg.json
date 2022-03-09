@@ -1,0 +1,23 @@
+{
+  "$schema": "https://arweave.net/t73xsFyqdCTu0FVEzt_psO9MbOFNaOV_rVmfjJoDCs0/src/schema.json",
+  "name": "coreutils",
+  "description": "🍥 Cross-platform JavaScript rewrite of the GNU Coreutils using Deno",
+  "homepage": "https://github.com/UltiRequiem/coreutils",
+  "unstable": false,
+  "unlisted": false,
+  "version": "0.1.7",
+  "releaseType": "patch",
+  "files": [
+    "./mod.ts",
+    "./commands/**/*",
+    "./README.md"
+  ],
+  "ignore": [
+    ".git"
+  ],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test",
+  "checkInstallation": true,
+  "check": true,
+  "entry": "./mod.ts"
+}
