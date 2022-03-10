@@ -16,5 +16,6 @@ async function main() {
   for (const file of files) {
     await ensureFile(`${file}`);
   }
+}
 
 main();
