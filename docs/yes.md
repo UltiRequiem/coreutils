@@ -4,12 +4,12 @@
 
 ## Install
 
-```bash
+```sh
 deno install https://deno.land/x/coreutils/bin/yes.ts
 ```
 
 ## Usage
 
-```bash
+```sh
 yes
 ```

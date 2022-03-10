@@ -4,12 +4,12 @@
 
 ## Install
 
-```bash
+```sh
 deno install --allow-read https://deno.land/x/coreutils/bin/pwd.ts
 ```
 
 ## Usage
 
-```bash
+```sh
 pwd
 ```

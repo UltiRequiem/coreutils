@@ -4,6 +4,6 @@
 
 ## Install
 
-```shell
-deno install --allow-run --allow-hrtime https://deno.land/x/coreutils/bin/whoami.ts
+```sh
+deno install --allow-env https://deno.land/x/coreutils/bin/whoami.ts
 ```

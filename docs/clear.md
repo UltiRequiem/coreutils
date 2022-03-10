@@ -4,12 +4,12 @@
 
 ## Install
 
-```bash
+```sh
 deno install https://deno.land/x/coreutils/bin/clear.ts
 ```
 
 ## Usage
 
-```bash
+```sh
 clear
 ```

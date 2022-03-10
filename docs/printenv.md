@@ -4,7 +4,7 @@
 
 ## Install
 
-```bash
+```sh
 deno install --allow-env https://deno.land/x/coreutils/bin/printenv.ts
 ```
 

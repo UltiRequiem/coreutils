@@ -4,12 +4,12 @@
 
 ## Install
 
-```bash
+```sh
 deno install --allow-env https://deno.land/x/coreutils/bin/echo.ts
 ```
 
 ## Usage
 
-```bash
+```sh
 echo "Hello, Deno!"
 ```

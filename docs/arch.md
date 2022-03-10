@@ -4,6 +4,6 @@
 
 ## Install
 
-```shell
+```sh
 deno install https://deno.land/x/coreutils/bin/arch.ts
 ```

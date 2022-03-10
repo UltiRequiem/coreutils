@@ -4,12 +4,12 @@
 
 ## Install
 
-```bash
+```sh
 deno install https://deno.land/x/coreutils/bin/cat.ts
 ```
 
 ## Usage
 
-```bash
+```sh
 cat
 ```
