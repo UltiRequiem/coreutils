@@ -1,5 +1,6 @@
 import { printHelp } from "../../utils/mod.ts";
-import { parse, writeAll } from "../../deps.ts";
+import { writeAll } from "../../deps_std.ts";
+import { parse } from "https://deno.land/std/flags/mod.ts";
 
 const helpMessage = `Usage: yes [STRING]...
   or:  yes OPTION

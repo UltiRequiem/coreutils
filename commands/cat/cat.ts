@@ -1,4 +1,4 @@
-import { writeAll } from "../../std_deps.ts";
+import { writeAll } from "../../deps_std.ts";
 
 if (Deno.args.length === 0) {
   while (true) {

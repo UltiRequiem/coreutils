@@ -1,6 +1,6 @@
 import { parse } from "https://deno.land/std/flags/mod.ts";
 
-import { ensureFile } from "../../std_deps.ts";
+import { ensureFile } from "../../deps_std.ts";
 
 const usage = "Usage: touch [OPTION]... FILE...";
 
