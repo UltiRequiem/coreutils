@@ -1,1 +1,1 @@
-export * from "https://deno.land/x/clear@v1.3.0/mod.ts";
+export { clear } from "https://deno.land/x/clear@v1.3.0/mod.ts";

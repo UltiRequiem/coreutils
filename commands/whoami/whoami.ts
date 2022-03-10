@@ -2,4 +2,6 @@ export function user() {
   return Deno.env.get("USER");
 }
 
-console.log(user());
+if (import.meta.main) {
+  console.log(user());
+}
