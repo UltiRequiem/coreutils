@@ -1,1 +1,5 @@
-console.log(Deno.env.get("USER"));
+export function user() {
+  return Deno.env.get("USER");
+}
+
+console.log(user());
