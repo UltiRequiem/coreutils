@@ -1,4 +1,4 @@
-import { writeAll } from "../deps.ts";
+import { writeAll } from "./dependencies.ts";
 
 if (Deno.args.length === 0) {
   while (true) {

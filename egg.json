@@ -8,7 +8,7 @@
   "version": "0.1.7",
   "releaseType": "patch",
   "files": [
-    "./mod.ts",
+    "./utils/*",
     "./commands/**/*",
     "./README.md"
   ],
