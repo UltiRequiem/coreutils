@@ -42,14 +42,26 @@ Still a WIP, if you are interested in helping check the issue
 This is equal on Windows and Linux
 
 ```sh
-deno install https://deno.land/x/coreutils/commands/yes/yes.ts
+deno install -n jsyes https://deno.land/x/coreutils/commands/yes/yes.ts
 ```
 
-Or
+> [Deno Docs](https://deno.land/manual/tools/script_installer)
+
+## Usage
+
+If you use the method that install all the commands together you can invoke them
+as the normal coreutils commands + the `js` prefix, example 👇
 
 ```sh
-deno install https://deno.land/x/coreutils_yes/yes.ts
+jsyes # yes equivalent
 ```
+
+## Contributing
+
+This project is actively looking for contributors! ⭐
+
+Check the [contribution docs](./CONTRIBUTING.md) and the issue
+[#35](https://github.com/UltiRequiem/coreutils/issues/35) for more info 🏹
 
 ## License
 
