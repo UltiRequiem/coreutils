@@ -16,3 +16,9 @@ use only in development (eg. testing) goes to [deps_dev.ts](./deps_dev.ts).
 Dependencies are automatically updated by
 [udd](https://github.com/hayd/deno-udd#scheduled-github-action) so there is not
 need to manage that.
+
+## Adding new Commands
+
+A table of permissions
+
+https://deno.land/manual/getting_started/permissions#permissions-list

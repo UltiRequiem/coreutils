@@ -8,10 +8,10 @@ Any of the options here will require that you have [Deno](https://deno.land)
 Installed.
 
 We are currently working on provide binaries on
-[#27](https://github.com/UltiRequiem/coreutils/issues/27).
+[#27](https://github.com/UltiRequiem/coreutils/issues/27) 📦
 
-> While [Node.js] support is not a goal we plan to give support for it,
-> [#34](https://github.com/UltiRequiem/coreutils/issues/34).
+> While [Node.js](https://nodejs.org) support is not a principal goal we plan to
+> support it, [#34](https://github.com/UltiRequiem/coreutils/issues/34) 👀
 
 ### Linux
 
