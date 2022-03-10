@@ -1,32 +1,20 @@
 import { parse } from "https://deno.land/std/flags/mod.ts";
-import { ensureFileSync } from "https://deno.land/std/fs/mod.ts";
+
+import { ensureFile } from "../../std_deps.ts";
 
 const usage = "Usage: touch [OPTION]... FILE...";
 
-function parseFiles(files: string[]): (string | number)[] {
-  if (files.length == 0) {
-    throw new Error("No files specified");
-  }
-
-  return files;
-}
-
-function main() {
+async function main() {
   const args = parse(Deno.args);
   const files = args._ as string[];
 
-  let parsedFiles;
-
-  try {
-    parsedFiles = parseFiles(files);
-  } catch {
+  if (files.length == 0) {
     console.log(usage);
-    return
+    return;
   }
 
-  for (const file of parsedFiles) {
-    ensureFileSync(file.toString());
+  for (const file of files) {
+    await ensureFile(`${file}`);
   }
-}
 
 main();

@@ -1,3 +1,3 @@
-import { clear } from "../deps.ts";
+import { clear } from "../../3p_deps.ts";
 
 clear();
